@@ -20,3 +20,8 @@ Todo List
 * Phase 3 :
     * Mise en préprod : 10 mai 2014
     * Mise en prod : 18 mai 2014
+
+Jeux de données
+===============
+Bdd : tousgrosdemain:tousgrosd3main@tousgrosdemain
+wordpressAdmin : tousgrosdemain:tousgrosd3main
