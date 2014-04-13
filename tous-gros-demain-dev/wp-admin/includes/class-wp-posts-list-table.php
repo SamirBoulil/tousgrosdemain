@@ -839,7 +839,7 @@ class WP_Posts_List_Table extends WP_List_Table {
 	<?php if ( !$bulk ) echo $authors_dropdown;
 	endif; // post_type_supports author
 
-	if ( !$bulk && $can_publish ) :
+	if ( !$bulk ) :
 	?>
 
 			<div class="inline-edit-group">
