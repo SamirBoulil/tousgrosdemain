@@ -1,90 +1,104 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 /**
- * The base configurations of the WordPress.
+ * La configuration de base de votre installation WordPress.
  *
- * This file has the following configurations: MySQL settings, Table Prefix,
- * Secret Keys, WordPress Language, and ABSPATH. You can find more information
- * by visiting {@link http://codex.wordpress.org/Editing_wp-config.php Editing
- * wp-config.php} Codex page. You can get the MySQL settings from your web host.
+ * Ce fichier contient les réglages de configuration suivants : réglages MySQL,
+ * préfixe de table, clefs secrètes, langue utilisée, et ABSPATH.
+ * Vous pouvez en savoir plus à leur sujet en allant sur 
+ * {@link http://codex.wordpress.org/fr:Modifier_wp-config.php Modifier
+ * wp-config.php}. C'est votre hébergeur qui doit vous donner vos
+ * codes MySQL.
  *
- * This file is used by the wp-config.php creation script during the
- * installation. You don't have to use the web site, you can just copy this file
- * to "wp-config.php" and fill in the values.
+ * Ce fichier est utilisé par le script de création de wp-config.php pendant
+ * le processus d'installation. Vous n'avez pas à utiliser le site web, vous
+ * pouvez simplement renommer ce fichier en "wp-config.php" et remplir les
+ * valeurs.
  *
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'tousgrosdemain');
+// ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
+/** Nom de la base de données de WordPress. */
+ //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '/Applications/MAMP/htdocs/wordpress/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define('DB_NAME', 'wordpress');
 
-/** MySQL database username */
-define('DB_USER', 'tousgrosdemain');
+/** Utilisateur de la base de données MySQL. */
+define('DB_USER', 'root');
 
-/** MySQL database password */
-define('DB_PASSWORD', 'tousgrosd3main');
+/** Mot de passe de la base de données MySQL. */
+define('DB_PASSWORD', 'root');
 
-/** MySQL hostname */
+/** Adresse de l'hébergement MySQL. */
 define('DB_HOST', 'localhost');
 
-/** Database Charset to use in creating database tables. */
+/** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8');
 
-/** The Database Collate type. Don't change this if in doubt. */
+/** Type de collation de la base de données. 
+  * N'y touchez que si vous savez ce que vous faites. 
+  */
 define('DB_COLLATE', '');
 
 /**#@+
- * Authentication Unique Keys and Salts.
+ * Clefs uniques d'authentification et salage.
  *
- * Change these to different unique phrases!
- * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+ * Remplacez les valeurs par défaut par des phrases uniques !
+ * Vous pouvez générer des phrases aléatoires en utilisant 
+ * {@link https://api.wordpress.org/secret-key/1.1/salt/ le service de clefs secrètes de WordPress.org}.
+ * Vous pouvez modifier ces phrases à n'importe quel moment, afin d'invalider tous les cookies existants.
+ * Cela forcera également tous les utilisateurs à se reconnecter.
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'k0U?4fxscu^YT`#x!D@GU[ziaz(3/-9W5^rN)bH:c8MxVjp#bga+7aDw.DQ1xK:Q');
-define('SECURE_AUTH_KEY',  'S|$[r0D}*y&Yns<Y=^|`Y,AgLuMo>x?GFC^Do&`~`or<Sf Up(Akk7WF)=++M_2y');
-define('LOGGED_IN_KEY',    'MDa?OtjQ@ya-Q-[XhYWBkYuNO+7a4._#F(>bv`H}i?Q.;}d?e ;I$6K85.>.QxZh');
-define('NONCE_KEY',        'FJ7r0J+/;:R=,4IXXwV:myuE[RG{<ogLS+9A8P5YP<n1$}JgU4JX>V.S]ake+wJA');
-define('AUTH_SALT',        'T|k1=@M*@Kz=i||s8OG22 N+=E}:h7qPy/o )--68q<B:n)^5M{c,_@X[my_Lea0');
-define('SECURE_AUTH_SALT', 'C6k[xBit22~TW5dY3u+^VkRjI1SCkue$v4rWNp@>-G9(9x}owLJ4:Nhm{Ds-M:GS');
-define('LOGGED_IN_SALT',   't.7z<[X&+$+{?wJ-EY:)leV-|o!_MnuJ,={?BgS:N@~TDvLzk]l235.,<rm((H}j');
-define('NONCE_SALT',       '(v2zn#k)S[#TO[<]x=MMj-Cp}|H#$boUPzEF1k$+)G}Pb9.wWzX901 [V&!4~ZE-');
-
+define('AUTH_KEY',         'X=,z;Cw+x)xN6kRTs+dLYs4-+MXgD a?]Ay8?!`KR`cp1!;D0&NLuskIt?>3$|DL');
+define('SECURE_AUTH_KEY',  '|e>=Dxpri9|6IiLd)TXgyK5d-E7Sk$]i BlM_+E:!hk2TWpV|nL`1=vTeV>F51C2');
+define('LOGGED_IN_KEY',    'yqJ-R,&60{3D( T{zTgvp^wp KYm*~sd$n)sbx^5$/pR-0S;bI|^~9C`:tCqv~0`');
+define('NONCE_KEY',        '{1~#rf<,e>7ka>k|qW> D2q~Zj!y9-`,Tp|YF]7Jf]1h.4x-eYJ;56S|M4@:SJ,C');
+define('AUTH_SALT',        '7M&pUgrno>-lW]7#hC/7`<a#Pv~an/[Rh*l8b-uzd]iC5|_ZA|Qfil^)/I*l|^`@');
+define('SECURE_AUTH_SALT', 'Y+<MHdI5o|44E`)CkMY4(T|{$@?M83/xph-r!wqQ#(%Hed`u[n7-9e<k/49SQ$*Z');
+define('LOGGED_IN_SALT',   'XHx Y+3J3XUO#?J2>MFGb-[[_}-( o;Ua+hlx4z}y,GM9IfRyl5lQURw~oac`~i2');
+define('NONCE_SALT',       'e`9h6lQr{mXU=Z+kTjW(ZxK&u=AqU]Uk?|o28nNq_|^+HY9Q=bbcve,GrLs06I+=');
 /**#@-*/
 
 /**
- * WordPress Database Table prefix.
+ * Préfixe de base de données pour les tables de WordPress.
  *
- * You can have multiple installations in one database if you give each a unique
- * prefix. Only numbers, letters, and underscores please!
+ * Vous pouvez installer plusieurs WordPress sur une seule base de données
+ * si vous leur donnez chacune un préfixe unique. 
+ * N'utilisez que des chiffres, des lettres non-accentuées, et des caractères soulignés!
  */
 $table_prefix  = 'wp_';
 
 /**
- * WordPress Localized Language, defaults to English.
+ * Langue de localisation de WordPress, par défaut en Anglais.
  *
- * Change this to localize WordPress. A corresponding MO file for the chosen
- * language must be installed to wp-content/languages. For example, install
- * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
- * language support.
+ * Modifiez cette valeur pour localiser WordPress. Un fichier MO correspondant
+ * au langage choisi doit être installé dans le dossier wp-content/languages.
+ * Par exemple, pour mettre en place une traduction française, mettez le fichier
+ * fr_FR.mo dans wp-content/languages, et réglez l'option ci-dessous à "fr_FR".
  */
-define('WPLANG', '');
+define('WPLANG', 'fr_FR');
 
-/**
- * For developers: WordPress debugging mode.
- *
- * Change this to true to enable the display of notices during development.
- * It is strongly recommended that plugin and theme developers use WP_DEBUG
- * in their development environments.
- */
-define('WP_DEBUG', false);
+/** 
+ * Pour les développeurs : le mode deboguage de WordPress.
+ * 
+ * En passant la valeur suivante à "true", vous activez l'affichage des
+ * notifications d'erreurs pendant votre essais.
+ * Il est fortemment recommandé que les développeurs d'extensions et
+ * de thèmes se servent de WP_DEBUG dans leur environnement de 
+ * développement.
+ */ 
+define('WP_DEBUG', false); 
 
-/* That's all, stop editing! Happy blogging. */
+/* C'est tout, ne touchez pas à ce qui suit ! Bon blogging ! */
 
-/** Absolute path to the WordPress directory. */
+/** Chemin absolu vers le dossier de WordPress. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
-/** Sets up WordPress vars and included files. */
+/** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once(ABSPATH . 'wp-settings.php');

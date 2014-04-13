@@ -1,0 +1,682 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#. Text in function
+#: arcade-basic/search.php:15
+msgid " search results for"
+msgstr "Résultat de la recherche pour"
+
+#. Text in function
+#: arcade-basic/content-header.php:21
+msgid "% Comments"
+msgstr "%Commentaires"
+
+#. Text in function
+#: arcade-basic/functions.php:320
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#. Text in function
+#: arcade-basic/archive.php:29
+msgid "%s"
+msgstr "%s"
+
+#. Text in function
+#: arcade-basic/single.php:19
+msgid "%title &rarr;"
+msgstr "%title &rarr;"
+
+#. Text in function
+#: arcade-basic/single.php:18
+msgid "&larr; %title"
+msgstr "%title &rarr;"
+
+#. Text in function
+#: arcade-basic/comments.php:41
+msgid "&larr; Older Comments"
+msgstr "&larr; Anciens commentaires"
+
+#. Text in function
+#: arcade-basic/functions.php:238
+msgid "&larr; Older posts"
+msgstr "&larr; Anciens messages"
+
+#. Text in function
+#: arcade-basic/image.php:59
+msgid "&larr; Previous Image"
+msgstr "&larr; Image précédente"
+
+#. Text in function
+#: arcade-basic/image.php:50 arcade-basic/content-footer.php:9
+#: arcade-basic/functions.php:320 arcade-basic/functions.php:345
+msgid "(edit)"
+msgstr "(edit)"
+
+#. Text in function
+#: arcade-basic/content-header.php:21
+msgid "0 Comments"
+msgstr "0 Commentaires"
+
+#. Text in function
+#: arcade-basic/content-header.php:21
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#. Text in echo
+#: arcade-basic/404.php:15
+msgid "404 Error"
+msgstr "Erreur 404"
+
+#. Text in echo
+#: arcade-basic/content-aside.php:9
+msgid "<i class=\"fa fa-asterisk\"></i> Aside"
+msgstr "<i class=\"fa fa-asterisk\"></i> De côté"
+
+#. Text in echo
+#: arcade-basic/content-link.php:9
+msgid "<i class=\"fa fa-link\"></i> Link"
+msgstr "<i class=\"fa fa-link\"></i> Lien"
+
+#. Text in echo
+#: arcade-basic/content-status.php:9
+msgid "<i class=\"fa fa-plus-square\"></i> Status"
+msgstr "<i class=\"fa fa-plus-square\"></i> Statut"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:116
+msgid "Add More Widgets"
+msgstr "Ajouter Widgets"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:90
+msgid "Advanced Color Picker"
+msgstr "Advanced Color Picker"
+
+#. Text in function
+#: arcade-basic/functions.php:646
+msgid ""
+"Area on the home page above the main content. Designed specifically for four "
+"Icon & Text widgets. Add at least one widget to make it appear."
+msgstr ""
+"Zone sur la page d'accueil ci-dessus le contenu principal. Conçu "
+"spécifiquement pour les quatre Icône et texte widgets. Ajoutez au moins un "
+"widget pour faire apparaître."
+
+#. Text in echo
+#: arcade-basic/library/widgets/widget-image-icon.php:113
+msgid "Automatically add paragraphs"
+msgstr "Ajouter des paragraphes automatiquement"
+
+#. Text in function
+#: arcade-basic/functions.php:244
+msgid "Back to home &rarr;"
+msgstr "Retour à l'accueil &rarr;"
+
+#. Text in echo
+#: arcade-basic/sidebar.php:16
+msgid "Below is an example of an unordered list."
+msgstr "Voici un exemple d'une liste non ordonnée."
+
+#. Text in echo
+#: arcade-basic/archive.php:39
+msgid "Blog Archives"
+msgstr "Archives du blog"
+
+#. Text in function
+#: arcade-basic/library/widgets/widget-image-icon.php:114
+msgid "Blue"
+msgstr "Bleu"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:137
+msgid "Bootstrap Shortcodes"
+msgstr "Bootstrap Shortcodes"
+
+#. Text in echo
+#: arcade-basic/library/widgets/widget-image-icon.php:94
+msgid "Button & Icon Color:"
+msgstr "Button & Icon Color:"
+
+#. Text in echo
+#: arcade-basic/library/widgets/widget-image-icon.php:91
+msgid "Button Text:"
+msgstr "Button Text:"
+
+#. Text in function
+#: arcade-basic/library/preview-pro.php:147
+msgid "Buy %s Now &rarr;"
+msgstr "Acheter %s maintenant &rarr;"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:107
+msgid ""
+"Choose from some of Google Fonts\\' most popular fonts to improve your site"
+"\\'s typeface readability and make things look even more amazing."
+msgstr ""
+"Choose from some of Google Fonts\\' most popular fonts to improve your site"
+"\\'s typeface readability and make things look even more amazing."
+
+#. Text in echo
+#: arcade-basic/comments.php:40
+msgid "Comment navigation"
+msgstr "Commentaire navigation"
+
+#. Text in echo
+#: arcade-basic/comments.php:51
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#. Text in function
+#: arcade-basic/footer.php:17
+msgid "Copyright &copy; %s %s. All Rights Reserved."
+msgstr "Copyright &copy; %s %s. All Rights Reserved."
+
+#. Text in function
+#: arcade-basic/library/widgets/widget-image-icon.php:1
+msgid "Custom Text Widget with Icon"
+msgstr "Custom Text Widget with Icon"
+
+#. Text in function
+#: arcade-basic/archive.php:33
+msgid "Daily Archives: %s"
+msgstr "Daily Archives: %s"
+
+#. Text in function
+#: arcade-basic/library/widgets/widget-image-icon.php:114
+msgid "Default"
+msgstr "Défaut"
+
+#. Text in function
+#: arcade-basic/functions.php:1
+msgid "Default Header 1"
+msgstr "Default Header 1"
+
+#. Text in echo
+#: arcade-basic/sidebar.php:13
+msgid "Default Widget"
+msgstr "Default Widget"
+
+#. Text in function
+#: arcade-basic/footer.php:18
+msgid "Designed by %s."
+msgstr "Designed by %s."
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:127
+msgid ""
+"Each page/post has an option to remove both sidebars so you can use the full "
+"width of your site to display whatever you want."
+msgstr ""
+"Chaque page / poste a une option pour supprimer les deux barres latérales de "
+"sorte que vous pouvez utiliser toute la largeur de votre site pour afficher "
+"ce que vous voulez."
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:74
+msgid ""
+"Each post will appear as part of the three columns grid. Use the custom "
+"field \"category_name\" to specify which category feeds your grid."
+msgstr ""
+"Chaque message s'affichera dans le cadre de la grille à trois colonnes. "
+"Utilisez le champ personnalisé\"category_name\" pour spécifier la catégorie "
+"alimente votre grille."
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:85
+msgid ""
+"Easily add a social menu by creating links to the most popular social media "
+"websites."
+msgstr ""
+"Ajoutez facilement un menu sociale en créant des liens vers des sites Web "
+"les plus populaires de médias sociaux."
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:96
+msgid ""
+"Easily select one of the eight preset colors or dive even deeper into your "
+"customization by using a more specific hex code."
+msgstr ""
+"Sélectionner facilement l'une des huit couleurs prédéfinies ou plonger "
+"encore plus profondément dans votre personnalisation en utilisant un code "
+"hexadécimal plus spécifique."
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:84
+msgid ""
+"Establish your online presense by letting your visitors join your social "
+"network. Help them stay up to date on everything you\\'re doing"
+msgstr ""
+"Établissez votre presence en ligne en laissant vos visiteurs se joindre à "
+"votre réseau social. Les aider à rester à jour sur tout ce que vous faites"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:123
+msgid "Even More Theme Options"
+msgstr "Même Plus d'options de thème"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:112
+msgid "Extended Widgetized Footer"
+msgstr "Extended Widgetized Footer"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:64
+msgid "Features"
+msgstr "Features"
+
+#. Text in function
+#: arcade-basic/functions.php:646
+msgid "First Sidebar"
+msgstr "First Sidebar"
+
+#. Text in echo
+#: arcade-basic/front-page.php:54
+msgid "From the Blog"
+msgstr "From the Blog"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:126
+msgid "Full Width Posts/Pages"
+msgstr "Full Width Posts/Pages"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:101
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#. Text in function
+#: arcade-basic/library/widgets/widget-image-icon.php:114
+msgid "Green"
+msgstr "Vert"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:68
+msgid "Grid Page Template"
+msgstr "Grid Page Template"
+
+#. Text in function
+#: arcade-basic/functions.php:646
+msgid "Home Page Top Area"
+msgstr "Home Page Top Area"
+
+#. Text in function
+#: arcade-basic/library/widgets/widget-image-icon.php:1
+msgid "Icon & Text"
+msgstr "Icon & Text"
+
+#. Text in echo
+#: arcade-basic/library/widgets/widget-image-icon.php:82
+msgid "Icon:"
+msgstr "Icône:"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:117
+msgid ""
+"If you need to include more widgets on your site, take advantage of the "
+"Extended Footer."
+msgstr ""
+"Si vous avez besoin d'inclure plus de widgets sur votre site, profiter de la "
+"Footer prolongée."
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:141
+msgid "Import/Export Tool"
+msgstr "Import/Export Tool"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:83
+msgid "Let\\'s Get Social!"
+msgstr "Soyons social!"
+
+#. Text in function
+#: arcade-basic/library/widgets/widget-image-icon.php:114
+msgid "Light Blue"
+msgstr "Light Blue"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:72
+msgid "Line Up Your Posts"
+msgstr "Alignez vos messages"
+
+#. Text in echo
+#: arcade-basic/sidebar.php:21
+msgid "List item four"
+msgstr "List item four"
+
+#. Text in echo
+#: arcade-basic/sidebar.php:18
+msgid "List item one"
+msgstr "List item one"
+
+#. Text in echo
+#: arcade-basic/sidebar.php:20
+msgid "List item three"
+msgstr "List item three"
+
+#. Text in echo
+#: arcade-basic/sidebar.php:19
+msgid "List item two"
+msgstr "List item two"
+
+#. Text in echo
+#: arcade-basic/header.php:37
+msgid "Main menu"
+msgstr "Menu principal"
+
+#. Text in function
+#: arcade-basic/archive.php:35
+msgid "Monthly Archives: %s"
+msgstr "Archives mensuelles: %s"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:130
+msgid "Multiple Sidebar Layouts"
+msgstr "Multiple Sidebar Layouts"
+
+#. Text in function
+#: arcade-basic/comments.php:42
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires les plus récents &rarr;"
+
+#. Text in function
+#: arcade-basic/functions.php:244
+msgid "Newer posts &rarr;"
+msgstr "Les nouveaux messages &rarr;"
+
+#. Text in function
+#: arcade-basic/image.php:60
+msgid "Next Image &rarr;"
+msgstr "Image suivante &rarr;"
+
+#. Text in echo
+#: arcade-basic/front-page.php:106
+msgid "No posts to display"
+msgstr "Pas de messages à afficher"
+
+#. Text in echo
+#: arcade-basic/content-none.php:12
+msgid "No results were found. Please try again."
+msgstr "Aucun résultat n'a été trouvé. S'il vous plaît essayez de nouveau."
+
+#. Text in echo
+#: arcade-basic/content-none.php:9
+msgid "Nothing found"
+msgstr "Rien trouvé"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:142
+msgid ""
+"Once you\\'ve set up your site exactly how you want, you can easily export "
+"the Theme Options and Custom CSS for safe keeping."
+msgstr ""
+"Une fois que vous avez mis en place votre site exactement comment vous "
+"voulez, vous pouvez facilement exporter les options de thème et CSS "
+"personnalisé pour garder sûr."
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:105
+msgid "Over 20 to Choose From"
+msgstr "Plus de 20 à choisir"
+
+#. Text in function
+#: arcade-basic/functions.php:646
+msgid "Page %s"
+msgstr "Page %s"
+
+#. Text in function
+#: arcade-basic/image.php:50 arcade-basic/content-footer.php:9
+msgid "Pages:"
+msgstr "Pages:"
+
+#. Text in echo
+#: arcade-basic/functions.php:345
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#. Text in echo
+#: arcade-basic/image.php:58 arcade-basic/single.php:17
+msgid "Post navigation"
+msgstr "Post navigation"
+
+#. Text in function
+#: arcade-basic/content-status.php:15
+msgid "Posted on %1$s at %2$s"
+msgstr "Posté le %1$s à %2$s"
+
+#. Text in function
+#: arcade-basic/content-header.php:21
+msgid "Posts by %s"
+msgstr "Posté par %s"
+
+#. Text in echo
+#: arcade-basic/functions.php:237
+msgid "Posts navigation"
+msgstr "Posts navigation"
+
+#. Text in function
+#: arcade-basic/functions.php:1
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#. Text in function
+#: arcade-basic/content.php:27 arcade-basic/content-link.php:12
+#: arcade-basic/content-audio.php:12 arcade-basic/content-image.php:12
+#: arcade-basic/content-aside.php:12 arcade-basic/front-page.php:64
+#: arcade-basic/content-quote.php:12 arcade-basic/content-status.php:18
+#: arcade-basic/page.php:25 arcade-basic/content-video.php:12
+#: arcade-basic/content-gallery.php:12
+msgid "Read more"
+msgstr "Lire la suite"
+
+#. Text in function
+#: arcade-basic/functions.php:642
+msgid "Read more &rarr;"
+msgstr "Lire la suite &rarr;"
+
+#. Text in function
+#: arcade-basic/front-page.php:109
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Prêt à publier votre premier poste? <a href=\"%s\">Commencez ici</a>."
+
+#. Text in function
+#: arcade-basic/library/widgets/widget-image-icon.php:114
+msgid "Red"
+msgstr "Rouge"
+
+#. Text in echo
+#: arcade-basic/library/customizer.php:61
+#: arcade-basic/library/widgets/widget-image-icon.php:84
+msgid "Remove Icon"
+msgstr "Supprimer l'icône"
+
+#. Text in echo
+#: arcade-basic/header.php:70
+msgid "See More"
+msgstr "En savoir plus"
+
+#. Text in function
+#: arcade-basic/library/preview-pro.php:138
+msgid ""
+"Shortcodes are awesome and easy to use. That\\'s why %s comes with a bunch, "
+"like a slideshow carousel, alert boxes and more."
+msgstr ""
+"Shortcodes are awesome and easy to use. That\\'s why %s comes with a bunch, "
+"like a slideshow carousel, alert boxes and more."
+
+#. Text in echo
+#: arcade-basic/header.php:38
+msgid "Skip to content"
+msgstr "Passer au contenu"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:94
+msgid "So Many Colors to Choose From"
+msgstr "So Many Colors to Choose From"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:79
+msgid "Social Menu"
+msgstr "Social Menu"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:131
+msgid ""
+"Sometimes one sidebar just isn\\'t enough, so add a second one and place it "
+"where you want."
+msgstr ""
+"Parfois, un encadré est tout simplement pas assez, il faut donc ajouter une "
+"seconde et placez-le où vous voulez."
+
+#. Text in function
+#: arcade-basic/library/preview-pro.php:95
+msgid ""
+"Sometimes the default colors just aren\\'t working for you. In %s you can "
+"use the advanced color picker to make sure you get the exact colors you want."
+msgstr ""
+"Parfois, les couleurs par défaut sont tout simplement pas faites pour vous. "
+"En %s, vous pouvez utiliser le sélecteur de couleur avancé pour vous assurer "
+"d'obtenir les couleurs exactes que vous voulez."
+
+#. Text in echo
+#: arcade-basic/404.php:18
+msgid "Sorry. We can't seem to find the page you're looking for."
+msgstr "Désolé. Nous n'arrivons pas à trouver la page que vous cherchez."
+
+#. Text in function
+#: arcade-basic/archive.php:31
+msgid "Tag Archive for %s"
+msgstr "Tag Archive for %s"
+
+#. Text in function
+#: arcade-basic/content-footer.php:9
+msgid "Tags:"
+msgstr "Tags:"
+
+#. Text in function
+#: arcade-basic/library/preview-pro.php:61
+msgid ""
+"Take your site to the next level with the full version of <em>Arcade</em>. "
+"Check out some of the advanced features that\\'ll give you more control over "
+"your site\\'s layout and design."
+msgstr ""
+"Prenez votre place au prochain niveau avec la version complète de <em> "
+"Arcade </ em>. Découvrez quelques-unes des fonctionnalités avancées qui vous "
+"donne plus de contrôle sur la présentation et la conception de votre site."
+
+#. Text in function
+#: arcade-basic/sidebar.php:14
+msgid ""
+"This is just a default widget. It\\'ll disappear as soon as you add your own "
+"widgets on the %sWidgets admin page%s."
+msgstr ""
+"Ceci est juste un widget par défaut. Il disparaîtra dès que vous ajoutez vos "
+"propres widgets sur la page admin%s Widgets %s."
+
+#. Text in function
+#: arcade-basic/functions.php:646
+msgid ""
+"This is the first sidebar. It won\\'t appear on the home page unless you set "
+"a static front page."
+msgstr ""
+"C\\'est la première barre latérale. Il n\\'apparaîtra pas sur la page d"
+"\\'accueil, sauf si vous définissez une page de couverture statique."
+
+#. Text in echo
+#: arcade-basic/library/widgets/widget-image-icon.php:79
+msgid "Title:"
+msgstr "Titre:"
+
+#. Text in echo
+#: arcade-basic/library/widgets/widget-image-icon.php:88
+msgid "URL:"
+msgstr "URL:"
+
+#. Text in function
+#: arcade-basic/library/preview-pro.php:1
+msgid "Upgrade %s"
+msgstr "Mise à jour %s"
+
+#. Text in function
+#: arcade-basic/library/preview-pro.php:1
+msgid "Upgrade to full version"
+msgstr "Mise à niveau vers la version complète"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:118
+msgid ""
+"Use the Theme Options customizer to set the number of columns you want to "
+"appear. You can also customize your site\\'s copyright notice."
+msgstr ""
+"Utilisez la personnalisation des options de thème pour définir le nombre de "
+"colonnes que vous souhaitez voir apparaître. Vous pouvez également "
+"personnaliser le copyright de votre site."
+
+#. Text in echo
+#: arcade-basic/library/customizer.php:61
+#: arcade-basic/library/widgets/widget-image-icon.php:84
+msgid "View Icons"
+msgstr "Voir icônes"
+
+#. Text in function
+#: arcade-basic/functions.php:238
+msgid "View more &rarr;"
+msgstr "Voir plus &rarr;"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:106
+msgid ""
+"Web-safe fonts are a thing of the past, so why not try to spice things up a "
+"bit?"
+msgstr ""
+"Polices pour le Web sont une chose du passé, alors pourquoi ne pas essayer "
+"de pimenter un peu les choses?"
+
+#. Text in echo
+#: arcade-basic/library/preview-pro.php:73
+msgid ""
+"Why display your posts in a single column when you can take advantage of the "
+"included grid page template?"
+msgstr ""
+"Pourquoi afficher vos messages dans une seule colonne lorsque vous pouvez "
+"profiter du modèle inclus la page de la grille?"
+
+#. Text in function
+#: arcade-basic/archive.php:37
+msgid "Yearly Archives: %s"
+msgstr "Archives annuelles: %s"
+
+#. Text in function
+#: arcade-basic/library/widgets/widget-image-icon.php:114
+msgid "Yellow"
+msgstr "Jaune"
+
+#. Text in function
+#: arcade-basic/functions.php:326
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#. Text in function
+#: arcade-basic/content-header.php:21
+msgid "by %s"
+msgstr "par %s"
+
+#. Text in function
+#: arcade-basic/content-header.php:21
+msgid "in"
+msgstr "dans"
+
+#. Text in function
+#: arcade-basic/content-header.php:21
+msgid "on"
+msgstr "sur"
