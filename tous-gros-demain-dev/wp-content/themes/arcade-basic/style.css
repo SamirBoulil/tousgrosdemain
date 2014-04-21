@@ -6676,6 +6676,7 @@ body.basic {
 }
 .basic h1 a, .basic h2 a, .basic h3 a, .basic h4 a, .basic h5 a, .basic h6 a {
   color: #282828;
+  font-family: Lato, sans-serif;
 }
 .basic a {
   color: #428BCA;
@@ -6832,7 +6833,7 @@ input, textarea {
   text-decoration: none;
 }
 .basic #site-title a {
-  font-family: 'Megrim', cursive;
+  font-family: 'Megrim' 'Lato';
 }
 .only-on-home.basic #site-title a {
   font-size: 120px;
